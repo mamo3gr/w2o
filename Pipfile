@@ -6,7 +6,7 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-torch = "==1.1.0"
+torch = "*"
 torchvision = "*"
 jupyter = "*"
 opencv-python = "*"
@@ -14,7 +14,7 @@ sklearn = "*"
 matplotlib = "*"
 
 [requires]
-python_version = "3.6.8"
+python_version = "3.6"
 
 [pipenv]
 allow_prereleases = true
